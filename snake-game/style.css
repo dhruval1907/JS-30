@@ -57,3 +57,7 @@ section .info{
   height: 30px; */
   border: 1px solid #333333;
 }
+
+.fill{
+    background-color: #f1f1f1;
+}
