@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-weight: 800;
 }
 
 /* HTML & Body Setup */
@@ -46,13 +47,13 @@ section .info{
   border:  1px solid #333333;
   flex-grow: 1;
   display: grid;
-  grid-template-columns: repeat(auto-fill,30px);
-  grid-template-rows: repeat(auto-fill,30px);
+  grid-template-columns: repeat(auto-fill,minmax(80px,1fr));
+  grid-template-rows: repeat(auto-fill,minmax(80px,1fr));
 }
 
 
 .block{
-  width:30px ;
-  height: 30px;
+  /* width:30px ;
+  height: 30px; */
   border: 1px solid #333333;
 }
